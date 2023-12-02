@@ -1,0 +1,4 @@
+/* Para las tarjetas de productos (divs con clase card de Bootstrap), cuando se tenga el cursor sobre una de estas, se cambia el fondo para destacar */
+.custom-card:hover {
+    background-color: rgb(245, 245, 245);
+}
