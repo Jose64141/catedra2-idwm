@@ -11,8 +11,15 @@ extend type Query {
     product(id: Int!): Product,
 }
 
+input ProductData {
+    name: String,
+    price: Int,
+    description: String,
+    imageUrl: String,
+}
+
 extend type Mutation {
-    createProduct(name: String!, price: Int!, description: String!, imageUrl: String!): Product,
-    updateProduct(id: Int!, name: String, price: Int, description: String, imageUrl: String): Product,
+    createProduct(data: ProductData!): Product,
+    updateProduct(id: Int!, data: ProductData!): Product,
     deleteProduct(id: Int!): Product,
 }
