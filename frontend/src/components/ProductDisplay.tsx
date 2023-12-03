@@ -115,7 +115,10 @@ export default function ProductDisplay(){
       <ProductForm
         isOpen={showModal}
         product={product}
-        handleClose={() => setShowModal(false)}
+        handleClose={() => {
+          setProduct({} as Product);
+          setShowModal(false);
+        }}
         handleSubmitProduct={async (product: Product) => {
           console.log(product)
           if (!!product.id) {
