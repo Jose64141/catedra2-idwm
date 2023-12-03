@@ -1,4 +1,4 @@
-# Práctica 2
+# Cátedra 2
 
 Este proyecto tiene las siguientes dependencias:
 * Node.js 18 LTS
@@ -41,4 +41,4 @@ Para correr el servidor, se debe ejecutar el siguiente comando en la carpeta `fr
 
 ### `npm start`
 
-Se ejecutará en [http://localhost:3000/portfolio](http://localhost:3000/portfolio).
+Se ejecutará en [http://localhost:3000/products](http://localhost:3000/products).
